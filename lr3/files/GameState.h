@@ -11,8 +11,8 @@ public:
     Player player;
     Enemy enemy;
     bool playerTurn;
-    Ability_Manager abilityManager; // Убедитесь, что этот класс существует
-    game_field field;                 // Убедитесь, что этот класс существует
+    Ability_Manager abilityManager; 
+    game_field field;                 
     ship_manager shipManager;
 
     GameState();

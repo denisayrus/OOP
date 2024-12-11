@@ -22,7 +22,7 @@ public:
     }
     Enemy();
     void setShipManager(const ship_manager& manager) {
-        this->manager = manager; // Храните экземпляр ship_manager
+        this->manager = manager; // Храним экземпляр ship_manager
     }
 
 
@@ -33,8 +33,6 @@ public:
     int health = 100;         // Здоровье противника
 
     void placeShipsRandomly(int boardSize, const std::vector<int>& shipLengths);
-
-     // Другие методы и переменные
 
      // Метод для проверки количества кораблей остающихся у врага
     std::string getShipCounts() const;
@@ -61,7 +59,7 @@ private:
         for (const Ship* ship : ships) {
             for (int i = 0; i < length; ++i) {
                 int checkX = horizontal ? x + i : x; // координаты для проверки
-                int checkY = horizontal ? y : y + i; // " "
+                int checkY = horizontal ? y : y + i; // 
                 if (ship->isAt(checkX, checkY)) {
                     return false; // Если координаты заняты, вернем false
                 }

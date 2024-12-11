@@ -1,4 +1,3 @@
-#ifndef ENEMY_SHIP_INITIALIZER_H
 #define ENEMY_SHIP_INITIALIZER_H
 
 #include <vector>

@@ -12,7 +12,7 @@ public:
     GameState state;
 
     Game();
-    ship_manager sm;  // или ship_manager_instance если ваше имя другое
+    ship_manager sm;  
     game_field gf;
     void startNewGame();
     void performPlayerTurn();
